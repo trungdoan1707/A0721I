@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3 id="result1">InnerText</h3>
+
+<h3 id="result2">InnerHTML</h3>
+
+
+<script>
+
+    /**
+     *  alert() dùng để hiển thị cảnh báo
+     */
+    alert("Tui là alert!!!");
+
+    /**
+     * confirm() dùng để xác nhận
+     */
+    confirm("Tui là confirm !!!")
+
+    /**
+     * prompt() dùng để cho người dùng nhập dữ liệu
+     */
+    prompt("Tui là prompt!!")
+
+    /**
+     * console.log() dùng để hiển thị dữ liệu trong màn hình console
+     */
+    console.log("Tui là console.log!!")
+
+    /**
+     * document.write(): viết nội dung lên trang web
+     */
+    document.writeln("*");
+
+    /**
+     * document.getElementById("id").innerText : in giá trị lên thẻ HTML thông qua id
+     */
+    document.getElementById("result1").innerText = "<h1>Hello, Tui sinh ra từ InnerText</h1>";
+
+    /**
+     * document.getElementById("id").innerText : in giá trị lên thẻ HTML thông qua id
+     */
+    document.getElementById("result2").innerHTML = "<h1>Hello, Tui sinh ra từ InnerHTML</h1>";
+
+</script>
+</body>
+</html>

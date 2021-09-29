@@ -1,0 +1,1 @@
+alert("Tui được tạo ra trong file javascript ở bên ngoài")

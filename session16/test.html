@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<p>Click the button to convert the string to uppercase letters.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<body>
+<script>
+
+    function myFunction() {
+        let result = "";
+        var str = ["hello", "world!"];
+        for (let i = 0; i < str.length; i++) {
+            for (let j = 0; j < str[i].length; j++) {
+                if (j === 0) {
+                    result += str[i][j].toUpperCase();
+                } else {
+                    result += str[i][j];
+                }
+            }
+            result += " ";
+        }
+        alert(result)
+
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    /**
+     * Sử dụng câu lệnh if
+     */
+    // let mark = parseInt(prompt("Nhập điểm thi của bạn: "));
+    // if (mark >= 75){
+    //   alert("Bạn đã thi pass module");
+    // }
+
+    /**
+     * Sử dụng câu lệnh if - else
+     */
+    // let mark = parseInt(prompt("Nhập điểm thi của bạn: "));
+    // if (mark >= 75){
+    //   alert("Bạn đã thi pass module");
+    // }else {
+    //   alert("Bạn đã thi trượt module này!")
+    // }
+
+    /**
+     * if-else bậc thang
+     */
+    // let mark = parseInt(prompt("Nhập điểm thi của bạn: "));
+    // if (mark >= 90) {
+    //     alert("Bạn đã học tốt, pass module")
+    // } else if (mark >= 75) {
+    //     alert("Bạn học khá, pass module")
+    // } else if (mark >= 50) {
+    //     alert("Bạn học trung bình")
+    // } else {
+    //     alert("Bạn fail module")
+    // }
+
+    /**
+     * if - else lồng nhau
+     */
+    // let mark = parseInt(prompt("Nhập điểm thi của bạn: "));
+    // let audit = parseInt(prompt("Nhập điểm audit: "))
+    // if (mark >= 90) {
+    //     if (audit > 6) {
+    //         alert("Bạn đã học tốt, pass module")
+    //     }else {
+    //         alert("Xem xét lại để đánh giá: ")
+    //     }
+    // } else if (mark >= 75) {
+    //     alert("Bạn học khá, pass module")
+    // } else if (mark >= 50) {
+    //     alert("Bạn học trung bình")
+    // } else {
+    //     alert("Bạn fail module")
+    // }
+
+    /**
+     * toán tử 3 ngôi
+     */
+    // let mark = parseInt(prompt("Nhập điểm thi của bạn: "));
+    // mark >= 75? alert("Thi pass module"): alert("Thi trượt module");
+
+    /**
+     * Bài toán: cho người nhập vào giá trị
+     * Nếu nhập 0: in ra hôm nay là chủ nhật
+     * Nếu nhập 1: in ra hôm nay là thứ 2
+     * Nếu nhập 2: in ra hôm nay là thứ 3
+     * Nếu nhập 3: in ra hôm nay là thứ 4
+     * Nếu nhập 4: in ra hôm nay là thứ 5
+     * Nếu nhập 5: in ra hôm nay là thứ 6
+     * Nếu nhập 6: in ra hôm nay là thứ 7
+     */
+    let number = parseInt(prompt("Nhập vào 1 số bạn muốn: "));
+    switch (number) {
+        case 0 :
+            alert("Hôm nay là chủ nhật");
+            break;
+        case 1:
+            alert("Hôm nay là thứ 2");
+            break;
+        case 2:
+            alert("Hôm nay là thứ 3");
+            break;
+        case 3:
+            alert("Hôm nay là thứ 4");
+            break;
+        case 4:
+            alert("Hôm nay là thứ 5");
+            break;
+        case 5:
+            alert("Hôm nay là thứ 6");
+            break;
+        case 6:
+            alert("Hôm nay là thứ 7");
+            break;
+        default:
+            alert("Chỉ được nhập số từ 0 đến 6");
+    }
+
+</script>
+</body>
+</html>
